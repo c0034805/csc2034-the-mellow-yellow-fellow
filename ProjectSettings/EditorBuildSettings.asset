@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/MenuScene.unity
+    guid: 46bc6262850edb546b76c2f80c72e13f
+  - enabled: 1
+    path: Assets/Scenes/ScoreboardScene.unity
+    guid: 8e32511aec8976b41af3a8a87c1df87a
+  - enabled: 1
+    path: Assets/Scenes/GameModeScene.unity
+    guid: 6ac078ce061940d4e838758d0bfd3e55
+  - enabled: 1
+    path: Assets/Scenes/SelectScene.unity
+    guid: 88454f0e0de95e0429231241f5dd079a
+  - enabled: 1
+    path: Assets/Scenes/LoadingScene.unity
+    guid: 5ab412a438dec1a4caf04f169edb4e42
+  - enabled: 1
+    path: Assets/Scenes/Level1Scene.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/Level2Scene.unity
+    guid: 0f2d283e4b0212f4a862af86950fda60
+  - enabled: 1
+    path: Assets/Scenes/Level3Scene.unity
+    guid: 82957340f62627b458d5191e28c51cfa
+  - enabled: 1
+    path: Assets/Scenes/Level4Scene.unity
+    guid: 3b82193bb0e1b394ea8c8fac8824006b
+  - enabled: 1
+    path: Assets/Scenes/Level5Scene.unity
+    guid: bdf4f174a42abb94692978a6108dcc5c
+  m_configObjects: {}

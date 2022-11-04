@@ -1,0 +1,535 @@
+﻿{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1649490091783340, "dur": 922337203685477580, "ph": "X", "name": "Build ScriptAssemblies", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1649490091784497, "dur": 13404, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1649490091798099, "dur": 44365, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1649490091842502, "dur": 195971, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1649490092038476, "dur": 3470452, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1649490095508944, "dur": 10177, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1649490104194201, "dur": 922337203685477580, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1649490104194436, "dur": 3548, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1649490104197985, "dur": 34299, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1649490104232286, "dur": 454679, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1649490104686968, "dur": 683085, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1649490105370055, "dur": 1216, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1649490105371667, "dur": 21, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1649490104539940, "dur": 135857, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1649490104540804, "dur": 37934, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1649490104660266, "dur": 4990, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1649490104665262, "dur": 10523, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1649490104666014, "dur": 9084, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1649490104680075, "dur": 1157, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1649490104679273, "dur": 1990, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1649490105371783, "dur": 160, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1649490104736008, "dur":1931, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649490104737945, "dur":32, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1649490104737994, "dur":8, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1649490104738003, "dur":572, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1649490104738598, "dur":448, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649490104739046, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649490105361613, "dur":205, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649490105361818, "dur":195, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649490105362013, "dur":8, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649490105362021, "dur":29, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649490105362050, "dur":20, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649490105362070, "dur":18, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649490105362088, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649490105362090, "dur":13, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649490105362103, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649490105362105, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649490105362115, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649490105362117, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649490105362127, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649490105362129, "dur":15, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649490105362144, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649490105362146, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649490105362157, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649490105362159, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649490105362167, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649490105362169, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649490105362179, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649490105362181, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649490105362190, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649490105362191, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649490105362200, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649490105362202, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649490105362211, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649490105362213, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649490105362222, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649490105362224, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649490105362233, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649490105362235, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649490105362247, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649490105362271, "dur":3, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649490105362277, "dur":1458, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1649490104738951, "dur":168, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1649490104739119, "dur":4501, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1649490104743623, "dur":677, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/stefa/Desktop/awgf/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1649490104744304, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1649490104746301, "dur":11507, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/stefa/Desktop/awgf/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1649490104757861, "dur":62238, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow.exe" }}
+,{ "pid":12345, "tid":1, "ts":1649490104820106, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1649490104820115, "dur":2128, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow.exe" }}
+,{ "pid":12345, "tid":1, "ts":1649490104822292, "dur":39338, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1649490104861705, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1649490104861710, "dur":1694, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1649490104863499, "dur":74809, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1649490104938311, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1649490104938319, "dur":1681, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1649490104940059, "dur":23886, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1649490104963951, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1649490104963961, "dur":1990, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1649490104965989, "dur":26193, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1649490104992189, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1649490104992198, "dur":2428, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1649490104994682, "dur":26297, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1649490105020987, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1649490105020998, "dur":2135, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1649490105023211, "dur":33255, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1649490105056472, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1649490105056517, "dur":1824, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1649490105058389, "dur":81289, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":1, "ts":1649490105139685, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1649490105139695, "dur":2405, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":1, "ts":1649490105142158, "dur":216184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1649490105358347, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1649490105358354, "dur":3186, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1649490105361571, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":1, "ts":1649490105361573, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649490104739155, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649490104739155, "dur":4438, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649490104743594, "dur":169, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/stefa/Desktop/awgf/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1649490104743849, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649490104753048, "dur":67837, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/stefa/Desktop/awgf/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1649490104821003, "dur":35840, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649490104856850, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649490104856859, "dur":1575, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649490104858467, "dur":76604, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649490104935074, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649490104935079, "dur":2119, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649490104937244, "dur":38154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649490104975405, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649490104975416, "dur":3429, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649490104978925, "dur":75382, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649490105054313, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649490105054325, "dur":1730, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649490105056107, "dur":47503, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649490105103617, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649490105103627, "dur":1480, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649490105105159, "dur":134618, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649490105239784, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649490105239794, "dur":2382, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649490105242236, "dur":119382, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649490104738928, "dur":181, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649490104739109, "dur":4499, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649490104743609, "dur":287, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/stefa/Desktop/awgf/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1649490104743899, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649490104755055, "dur":65535, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/stefa/Desktop/awgf/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1649490104820684, "dur":35863, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649490104856554, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649490104856702, "dur":1465, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649490104858222, "dur":77169, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649490104935396, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649490104935403, "dur":2655, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649490104938090, "dur":28567, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649490104966664, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649490104966675, "dur":1509, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649490104968236, "dur":47258, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649490105015502, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649490105015539, "dur":1991, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649490105017572, "dur":46281, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649490105063860, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649490105063872, "dur":2548, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649490105066491, "dur":108909, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649490105175407, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649490105175417, "dur":4339, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649490105179813, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1649490105179859, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649490105179948, "dur":1574, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1649490105181577, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":3, "ts":1649490105181623, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649490105181631, "dur":1669, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":3, "ts":1649490105183346, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1649490105183392, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649490105183400, "dur":1348, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1649490105184798, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":3, "ts":1649490105184855, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649490105184862, "dur":4396, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":3, "ts":1649490105189317, "dur":182, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1649490105189505, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649490105189511, "dur":9781, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1649490105199341, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/level2" }}
+,{ "pid":12345, "tid":3, "ts":1649490105199387, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649490105199396, "dur":3773, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/level2" }}
+,{ "pid":12345, "tid":3, "ts":1649490105203233, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/level1.resS" }}
+,{ "pid":12345, "tid":3, "ts":1649490105203280, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649490105203290, "dur":5182, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/level1.resS" }}
+,{ "pid":12345, "tid":3, "ts":1649490105208532, "dur":189, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1649490105208727, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649490105208734, "dur":5003, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1649490105213784, "dur":147823, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649490104738855, "dur":237, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649490104739093, "dur":4532, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649490104743626, "dur":10189, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/stefa/Desktop/awgf/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1649490104753821, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649490104753920, "dur":3984, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/stefa/Desktop/awgf/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1649490104757942, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":4, "ts":1649490104758047, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649490104758480, "dur":67823, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":4, "ts":1649490104826358, "dur":33868, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649490104860230, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649490104860237, "dur":1039, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649490104861312, "dur":76405, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649490104937747, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649490104937759, "dur":2042, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649490104939886, "dur":27982, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649490104967876, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649490104967889, "dur":1703, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649490104969645, "dur":34509, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649490105004159, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649490105004168, "dur":1767, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649490105005997, "dur":32486, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649490105038491, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649490105038503, "dur":1613, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649490105040169, "dur":55106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649490105095282, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649490105095293, "dur":1557, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649490105096901, "dur":78649, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649490105175554, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649490105175561, "dur":9025, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649490105184638, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":4, "ts":1649490105184695, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649490105184703, "dur":4498, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":4, "ts":1649490105189254, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":4, "ts":1649490105189310, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649490105189319, "dur":8580, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":4, "ts":1649490105197955, "dur":181, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/resources.assets" }}
+,{ "pid":12345, "tid":4, "ts":1649490105198142, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649490105198153, "dur":10244, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/resources.assets" }}
+,{ "pid":12345, "tid":4, "ts":1649490105208536, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":4, "ts":1649490105208594, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649490105208602, "dur":4704, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":4, "ts":1649490105213356, "dur":148260, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1649490104738829, "dur":255, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1649490104739084, "dur":4498, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1649490104743588, "dur":35079, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/stefa/Desktop/awgf/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":5, "ts":1649490104778777, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1649490104779225, "dur":42537, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/stefa/Desktop/awgf/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":5, "ts":1649490104821837, "dur":35053, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1649490104856894, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1649490104856900, "dur":1517, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1649490104858448, "dur":80134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1649490104938586, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1649490104938595, "dur":1946, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1649490104940608, "dur":33453, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1649490104974068, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1649490104974079, "dur":3679, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1649490104977806, "dur":36321, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1649490105014135, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1649490105014145, "dur":1450, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1649490105015639, "dur":31100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1649490105046746, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1649490105046756, "dur":1619, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1649490105048421, "dur":64526, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":5, "ts":1649490105112954, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1649490105112966, "dur":2454, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":5, "ts":1649490105115622, "dur":156139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":5, "ts":1649490105271765, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1649490105271774, "dur":2747, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":5, "ts":1649490105274569, "dur":87053, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1649490104738914, "dur":185, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1649490104739099, "dur":4493, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1649490104743600, "dur":313, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/stefa/Desktop/awgf/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1649490104743920, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1649490104755309, "dur":399377, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/stefa/Desktop/awgf/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1649490105154740, "dur":128520, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1649490105283264, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1649490105283273, "dur":1090, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1649490105284392, "dur":77218, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1649490104738760, "dur":310, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1649490104739070, "dur":4520, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1649490104743591, "dur":9523, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/stefa/Desktop/awgf/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1649490104753120, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1649490104753142, "dur":3281, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/stefa/Desktop/awgf/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1649490104756512, "dur":80606, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/stefa/Desktop/awgf/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":7, "ts":1649490104837124, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1649490104837259, "dur":5964, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/stefa/Desktop/awgf/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":7, "ts":1649490104843265, "dur":21785, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1649490104865058, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1649490104865068, "dur":1471, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1649490104866596, "dur":68012, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1649490104934613, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1649490104934619, "dur":1123, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1649490104935779, "dur":72653, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1649490105008451, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1649490105008463, "dur":3336, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1649490105011871, "dur":25592, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1649490105037471, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1649490105037483, "dur":1559, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1649490105039099, "dur":25019, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1649490105064123, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1649490105064132, "dur":2552, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1649490105066734, "dur":58907, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1649490105125648, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1649490105125663, "dur":2893, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1649490105128604, "dur":33171, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1649490105161781, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1649490105161791, "dur":1696, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1649490105163536, "dur":88458, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":7, "ts":1649490105251999, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1649490105252007, "dur":1138, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":7, "ts":1649490105253176, "dur":108455, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1649490104739043, "dur":6, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1649490104739049, "dur":4523, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1649490104743585, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":8, "ts":1649490104743592, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1649490104745045, "dur":716, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":8, "ts":1649490104745765, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/app.info" }}
+,{ "pid":12345, "tid":8, "ts":1649490104745834, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1649490104746276, "dur":8649, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/app.info" }}
+,{ "pid":12345, "tid":8, "ts":1649490104754929, "dur":338, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/stefa/Desktop/awgf/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1649490104755274, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1649490104755286, "dur":461625, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/stefa/Desktop/awgf/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1649490105217052, "dur":144554, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1649490104739115, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1649490104739116, "dur":4486, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1649490104743602, "dur":9867, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/stefa/Desktop/awgf/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1649490104753475, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1649490104753492, "dur":1975, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/stefa/Desktop/awgf/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1649490104755542, "dur":65758, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/stefa/Desktop/awgf/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":9, "ts":1649490104821303, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1649490104821687, "dur":2315, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/stefa/Desktop/awgf/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":9, "ts":1649490104824065, "dur":118302, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1649490104942374, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1649490104942382, "dur":1015, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1649490104943433, "dur":24860, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1649490104968332, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1649490104968343, "dur":3580, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1649490104971975, "dur":25146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1649490104997128, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1649490104997139, "dur":1431, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1649490104998624, "dur":26956, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1649490105025588, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1649490105025599, "dur":1820, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1649490105027464, "dur":30858, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1649490105058330, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1649490105058342, "dur":2390, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1649490105060783, "dur":115271, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":9, "ts":1649490105176060, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1649490105176071, "dur":11954, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":9, "ts":1649490105188078, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":9, "ts":1649490105188130, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1649490105188138, "dur":3451, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":9, "ts":1649490105191640, "dur":1479, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":9, "ts":1649490105193127, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1649490105193138, "dur":5087, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":9, "ts":1649490105198278, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/level3" }}
+,{ "pid":12345, "tid":9, "ts":1649490105198325, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1649490105198331, "dur":7421, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/level3" }}
+,{ "pid":12345, "tid":9, "ts":1649490105205810, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/level0.resS" }}
+,{ "pid":12345, "tid":9, "ts":1649490105205856, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1649490105205863, "dur":5332, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/level0.resS" }}
+,{ "pid":12345, "tid":9, "ts":1649490105211352, "dur":150261, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1649490104739230, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1649490104739230, "dur":4374, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1649490104743607, "dur":155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/stefa/Desktop/awgf/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":10, "ts":1649490104743765, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1649490104746362, "dur":383700, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/stefa/Desktop/awgf/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":10, "ts":1649490105130132, "dur":82039, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":10, "ts":1649490105212179, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1649490105212190, "dur":3161, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":10, "ts":1649490105215402, "dur":146206, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1649490104739291, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1649490104739292, "dur":4304, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1649490104743598, "dur":8779, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/stefa/Desktop/awgf/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1649490104752380, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1649490104752598, "dur":2401, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/stefa/Desktop/awgf/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1649490104755189, "dur":363, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/stefa/Desktop/awgf/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":11, "ts":1649490104755556, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1649490104755566, "dur":65665, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/stefa/Desktop/awgf/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":11, "ts":1649490104821287, "dur":40316, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1649490104861606, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1649490104861613, "dur":1770, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1649490104863448, "dur":73632, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1649490104937087, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1649490104937098, "dur":1680, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1649490104938892, "dur":22654, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1649490104961552, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1649490104961562, "dur":1963, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1649490104963578, "dur":34980, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1649490104998563, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1649490104998575, "dur":1956, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1649490105000587, "dur":28806, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1649490105029399, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1649490105029412, "dur":1554, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1649490105031019, "dur":42334, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1649490105073360, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1649490105073371, "dur":1732, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1649490105075150, "dur":24765, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":11, "ts":1649490105099922, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1649490105099933, "dur":1505, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":11, "ts":1649490105101487, "dur":30005, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":11, "ts":1649490105131499, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1649490105131511, "dur":3056, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":11, "ts":1649490105134616, "dur":82975, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":11, "ts":1649490105217598, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1649490105217609, "dur":2869, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":11, "ts":1649490105220528, "dur":141090, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1649490104739368, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1649490104739369, "dur":4215, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1649490104743588, "dur":300, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/stefa/Desktop/awgf/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":12, "ts":1649490104743893, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1649490104754027, "dur":66964, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/stefa/Desktop/awgf/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":12, "ts":1649490104821050, "dur":42401, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1649490104863457, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1649490104863468, "dur":2644, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1649490104866170, "dur":69215, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1649490104935388, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1649490104935394, "dur":2461, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1649490104937898, "dur":34490, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1649490104972395, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1649490104972404, "dur":1374, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1649490104973822, "dur":26401, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1649490105000229, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1649490105000239, "dur":2282, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1649490105002584, "dur":33804, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":12, "ts":1649490105036395, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1649490105036408, "dur":1759, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":12, "ts":1649490105038225, "dur":32622, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1649490105070853, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1649490105070863, "dur":1382, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1649490105072290, "dur":63813, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":12, "ts":1649490105136109, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1649490105136121, "dur":1590, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":12, "ts":1649490105137760, "dur":53143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":12, "ts":1649490105190911, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1649490105190921, "dur":5389, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":12, "ts":1649490105196377, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":12, "ts":1649490105196434, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1649490105196444, "dur":7850, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":12, "ts":1649490105204347, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/level1" }}
+,{ "pid":12345, "tid":12, "ts":1649490105204393, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1649490105204401, "dur":5304, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/level1" }}
+,{ "pid":12345, "tid":12, "ts":1649490105209764, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":12, "ts":1649490105209834, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1649490105209843, "dur":5513, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":12, "ts":1649490105215405, "dur":146215, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1649490104739446, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1649490104739446, "dur":4142, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1649490104743589, "dur":175, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/stefa/Desktop/awgf/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":13, "ts":1649490104743860, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1649490104752808, "dur":67816, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/stefa/Desktop/awgf/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":13, "ts":1649490104820727, "dur":41711, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1649490104862444, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1649490104862454, "dur":2161, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1649490104864662, "dur":75434, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1649490104940101, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1649490104940111, "dur":2348, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1649490104942512, "dur":25965, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1649490104968482, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1649490104968489, "dur":2723, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1649490104971270, "dur":26941, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1649490104998218, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1649490104998238, "dur":1829, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1649490105000111, "dur":48306, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1649490105048422, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1649490105048470, "dur":1958, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1649490105050479, "dur":197421, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":13, "ts":1649490105247907, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1649490105247920, "dur":3530, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":13, "ts":1649490105251496, "dur":110108, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1649490104739512, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1649490104739512, "dur":4088, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1649490104743608, "dur":232, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/stefa/Desktop/awgf/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":14, "ts":1649490104743848, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1649490104746345, "dur":11239, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/stefa/Desktop/awgf/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":14, "ts":1649490104757641, "dur":70772, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/stefa/Desktop/awgf/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":14, "ts":1649490104828418, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1649490104828426, "dur":2128, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/stefa/Desktop/awgf/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":14, "ts":1649490104830606, "dur":31833, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1649490104862444, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1649490104862454, "dur":2764, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1649490104865273, "dur":69889, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":14, "ts":1649490104935165, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1649490104935169, "dur":2589, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":14, "ts":1649490104937822, "dur":41671, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1649490104979499, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1649490104979509, "dur":1977, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1649490104981544, "dur":24362, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1649490105005913, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1649490105005924, "dur":1883, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1649490105007858, "dur":98482, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1649490105106347, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1649490105106358, "dur":3032, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1649490105109441, "dur":164069, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":14, "ts":1649490105273515, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1649490105273524, "dur":3020, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":14, "ts":1649490105276577, "dur":85048, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1649490104739582, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1649490104739582, "dur":4028, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1649490104743612, "dur":10165, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/stefa/Desktop/awgf/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":15, "ts":1649490104753782, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1649490104753848, "dur":2878, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/stefa/Desktop/awgf/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":15, "ts":1649490104756850, "dur":152569, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/stefa/Desktop/awgf/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":15, "ts":1649490104909423, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1649490104909429, "dur":15200, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/stefa/Desktop/awgf/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":15, "ts":1649490104924670, "dur":30651, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1649490104955328, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1649490104955338, "dur":2384, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1649490104957776, "dur":23658, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1649490104981469, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1649490104981479, "dur":1882, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1649490104983414, "dur":26692, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1649490105010113, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1649490105010124, "dur":1924, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1649490105012250, "dur":27567, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1649490105039824, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1649490105039835, "dur":1852, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1649490105041735, "dur":163774, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":15, "ts":1649490105205518, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1649490105205533, "dur":4179, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":15, "ts":1649490105209795, "dur":162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/boot.config" }}
+,{ "pid":12345, "tid":15, "ts":1649490105209961, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1649490105209967, "dur":4607, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/boot.config" }}
+,{ "pid":12345, "tid":15, "ts":1649490105214641, "dur":146960, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1649490104739651, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1649490104739651, "dur":3935, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1649490104743590, "dur":8752, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/stefa/Desktop/awgf/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":16, "ts":1649490104752347, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1649490104752612, "dur":2859, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/stefa/Desktop/awgf/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":16, "ts":1649490104755540, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/stefa/Desktop/awgf/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":16, "ts":1649490104755679, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1649490104755685, "dur":3083, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/stefa/Desktop/awgf/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":16, "ts":1649490104758948, "dur":60669, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1649490104819624, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1649490104820101, "dur":1883, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1649490104822035, "dur":39781, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1649490104861822, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1649490104861829, "dur":2425, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1649490104864310, "dur":70569, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1649490104934883, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1649490104934888, "dur":2602, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1649490104937540, "dur":24087, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1649490104961635, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1649490104961647, "dur":1896, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1649490104963593, "dur":40426, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1649490105004027, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1649490105004038, "dur":1939, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1649490105006037, "dur":25671, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1649490105031717, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1649490105031728, "dur":1759, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1649490105033534, "dur":92229, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1649490105125768, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1649490105125777, "dur":3325, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1649490105129159, "dur":107694, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":16, "ts":1649490105236860, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1649490105236870, "dur":2481, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/stefa/Desktop/awgf/The Mellow Yellow Fellow_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":16, "ts":1649490105239408, "dur":122209, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649490105365139, "dur":1617, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1649490105371990, "dur": 562, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1649490105371654, "dur": 914, "ph": "X", "name": "Write chrome-trace events", "args": {} },
